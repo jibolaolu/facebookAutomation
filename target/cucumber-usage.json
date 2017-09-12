@@ -1,0 +1,77 @@
+[
+  {
+    "source": "User navigates to facebook home page",
+    "steps": [
+      {
+        "name": "User navigates to facebook home page",
+        "aggregatedDurations": {
+          "average": 3.247511227,
+          "median": 3.247511227
+        },
+        "durations": [
+          {
+            "duration": 2.922561337,
+            "location": "FaceBook.feature:7"
+          },
+          {
+            "duration": 3.572461117,
+            "location": "FaceBook.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Login is not successful$",
+    "steps": [
+      {
+        "name": "Login is not successful",
+        "aggregatedDurations": {
+          "average": 0.184664293,
+          "median": 0.184664293
+        },
+        "durations": [
+          {
+            "duration": 0.13091237,
+            "location": "FaceBook.feature:9"
+          },
+          {
+            "duration": 0.238416217,
+            "location": "FaceBook.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Enter  valid \"([^\"]*)\" and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "Enter  valid \"jiboolau@gmail.com\" and \"hackney1\"",
+        "aggregatedDurations": {
+          "average": 1.4769779,
+          "median": 1.4769779
+        },
+        "durations": [
+          {
+            "duration": 1.4769779,
+            "location": "FaceBook.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "Enter  valid \"seuntests@u.com\" and \"london1\"",
+        "aggregatedDurations": {
+          "average": 1.565814274,
+          "median": 1.565814274
+        },
+        "durations": [
+          {
+            "duration": 1.565814274,
+            "location": "FaceBook.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

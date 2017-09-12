@@ -1,0 +1,194 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6429897139,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookStepDefinition.runBeforeScenario()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "user-with-valid-credential-can-login-to-facebook;login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3389584144,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookStepDefinition.runAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2922561337,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to facebook home page",
+            "match": {
+              "location": "FacebookStepDefinition.user_navigates_to_facebook_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1476977900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter  valid \"jiboolau@gmail.com\" and \"hackney1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jiboolau@gmail.com",
+                  "offset": 14
+                },
+                {
+                  "val": "hackney1",
+                  "offset": 39
+                }
+              ],
+              "location": "FacebookStepDefinition.enter_valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130912370,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Login is not successful",
+            "match": {
+              "location": "FacebookStepDefinition.login_is_not_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Webpage closes",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3771998926,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookStepDefinition.runBeforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "user-with-valid-credential-can-login-to-facebook;login-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2067389419,
+              "status": "passed"
+            },
+            "match": {
+              "location": "FacebookStepDefinition.runAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3572461117,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates to facebook home page",
+            "match": {
+              "location": "FacebookStepDefinition.user_navigates_to_facebook_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1565814274,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter  valid \"seuntests@u.com\" and \"london1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "seuntests@u.com",
+                  "offset": 14
+                },
+                {
+                  "val": "london1",
+                  "offset": 36
+                }
+              ],
+              "location": "FacebookStepDefinition.enter_valid_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 238416217,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Login is not successful",
+            "match": {
+              "location": "FacebookStepDefinition.login_is_not_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Webpage closes",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User with valid credential can login to facebook",
+    "description": "As a registered facebook user\nI want to be able to login successfully to my account\nSo that i connect with my friends",
+    "id": "user-with-valid-credential-can-login-to-facebook",
+    "keyword": "Feature",
+    "uri": "FaceBook.feature"
+  }
+]

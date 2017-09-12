@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="25.566013">
+<testcase classname="User with valid credential can login to facebook" name="Login with valid credentials" time="14.349933">
+<skipped><![CDATA[Given User navigates to facebook home page..................................passed
+When Enter  valid "jiboolau@gmail.com" and "hackney1".......................passed
+Then Login is not successful................................................passed
+Then Webpage closes.........................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="User with valid credential can login to facebook" name="Login with valid credentials 2" time="11.21608">
+<skipped><![CDATA[Given User navigates to facebook home page..................................passed
+When Enter  valid "seuntests@u.com" and "london1"...........................passed
+Then Login is not successful................................................passed
+Then Webpage closes.........................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

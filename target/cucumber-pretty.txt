@@ -1,0 +1,24 @@
+Feature: User with valid credential can login to facebook
+  As a registered facebook user
+  I want to be able to login successfully to my account
+  So that i connect with my friends
+
+  Scenario Outline: Login with valid credentials    [90m# FaceBook.feature:6[0m
+    [36mGiven [0m[36mUser navigates to facebook home page[0m
+    [36mWhen [0m[36mEnter  valid "<username>" and "<password>"[0m
+    [36mThen [0m[36mLogin is not successful[0m
+    [36mThen [0m[36mWebpage closes[0m
+
+    Examples: 
+
+  Scenario Outline: Login with valid credentials          [90m# FaceBook.feature:14[0m
+    [32mGiven [0m[32mUser navigates to facebook home page[0m            [90m# FacebookStepDefinition.user_navigates_to_facebook_home_page()[0m
+    [32mWhen [0m[32mEnter  valid "[0m[32m[1mjiboolau@gmail.com[0m[32m" and "[0m[32m[1mhackney1[0m[32m"[0m [90m# FacebookStepDefinition.enter_valid_and(String,String)[0m
+    [32mThen [0m[32mLogin is not successful[0m                          [90m# FacebookStepDefinition.login_is_not_successful()[0m
+    [33mThen [0m[33mWebpage closes[0m
+
+  Scenario Outline: Login with valid credentials      [90m# FaceBook.feature:15[0m
+    [32mGiven [0m[32mUser navigates to facebook home page[0m        [90m# FacebookStepDefinition.user_navigates_to_facebook_home_page()[0m
+    [32mWhen [0m[32mEnter  valid "[0m[32m[1mseuntests@u.com[0m[32m" and "[0m[32m[1mlondon1[0m[32m"[0m [90m# FacebookStepDefinition.enter_valid_and(String,String)[0m
+    [32mThen [0m[32mLogin is not successful[0m                      [90m# FacebookStepDefinition.login_is_not_successful()[0m
+    [33mThen [0m[33mWebpage closes[0m
